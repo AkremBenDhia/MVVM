@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <runningDeviceTargetSelectedWithDropDown>
+      <Target>
+        <type value="RUNNING_DEVICE_TARGET" />
+        <deviceKey>
+          <Key>
+            <type value="VIRTUAL_DEVICE_PATH" />
+            <value value="C:\Users\akrem\.android\avd\Nexus_4_API_30.avd" />
+          </Key>
+        </deviceKey>
+      </Target>
+    </runningDeviceTargetSelectedWithDropDown>
+    <timeTargetWasSelectedWithDropDown value="2024-03-14T23:23:24.028122700Z" />
+  </component>
+</project>
