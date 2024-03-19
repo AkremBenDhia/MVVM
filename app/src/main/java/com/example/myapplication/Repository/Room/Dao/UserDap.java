@@ -16,7 +16,6 @@ import retrofit2.http.GET;
 public interface UserDap {
 
 
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertAll(List<User> users);
 

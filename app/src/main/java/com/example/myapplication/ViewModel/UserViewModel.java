@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.example.myapplication.Model.Comment;
 import com.example.myapplication.Model.User;
 import com.example.myapplication.Repository.UserRepo.UserRepo;
 
@@ -25,5 +26,16 @@ public class UserViewModel extends ViewModel {
 
     public MutableLiveData<List<User>> getLocalUsers(Context context){
         return userRepo.getLocalUsers(context);
+    }
+
+    public MutableLiveData<List<Comment>> getRemoteComments(Context context){
+        return userRepo.getServerComments(context);
+    }
+    public MutableLiveData<String> postUsers(Context context,List<User> userList){
+        return userRepo.postUsers(context,userList);
+    }
+
+    public void deleteUser(Context context,Integer id){
+         userRepo.deleteUserById(context,id);
     }
 }
